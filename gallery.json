@@ -1,0 +1,57 @@
+{
+
+    "$schema": "https://raw.githubusercontent.com/MicrosoftDocs/Virtualization-Documentation/live/hyperv-tools/vmgallery/vm-gallery-schema.json",
+  
+    "images": [
+      {
+        "name": "Q4OS",
+        "version": "Q4OS Centaurus (Trinity)",
+        "locale": "en-US",
+        "publisher": "sirredbeard on GitHub",
+        "lastUpdated": "2019-08-15T18:25:59Z",
+        "description": [
+          "Live image of Q4OS Centaurus (Trinity Desktop Edition)",
+          "\r\n\r\n",
+          "https://github.com/sirredbeard/hyper-v-gallery",
+          "\r\n\r\n"
+        ],
+        "config": {
+          "secureBoot": "false"
+        },
+        "requirements": {
+          "diskSpace": "28290580480"
+        },
+        "disk": {
+          "uri": "https://newcontinuum.dl.sourceforge.net/project/q4os/stable/q4os-3.8-x64-tde.r4.iso",
+          "hash": "sha256:0DB58836C7F67218A3CE717282DEC1D7B0C28877ACC3AC12242E0813D12BE740",
+          "archiveRelativePath": "q4os-3.8-x64-tde.r4.iso"
+        },
+        "logo": {
+          "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/logo.jpg",
+          "hash": "sha256:22D01B82AE1B1178906825DF1368F88FCCB608D65AA4375C2C2E1461272648B3"
+        },
+        "symbol": {
+          "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/logo.jpg",
+          "hash": "sha256:22D01B82AE1B1178906825DF1368F88FCCB608D65AA4375C2C2E1461272648B3"
+        },
+        "thumbnail": {
+          "uri": "https://raw.githubusercontent.com/sirredbeard/hyper-v-gallery/master/distros/q4os/thumbnail.jpg",
+          "hash": "sha256:5CDCDB180C28690467C45BCE08494CC3C50B4D33E03256A6721D945FD06B2641"
+        },
+        "details": [
+          {
+            "name": "Edition",
+            "value": "Q4OS Centaurus (Trinity)"
+          },
+          {
+            "name": "Copyright",
+            "value": "Copyright (c) Q4OS"
+          },
+          {
+            "name": "License",
+            "value": "https://www.q4os.org/"
+          },
+        ]
+      }
+    ]
+}
